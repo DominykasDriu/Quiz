@@ -1,0 +1,65 @@
+[
+  {
+    "question": "Inside which HTML element tag < > do we put the JavaScript?",
+    "answers": [
+      {
+        "text": "scripting",
+        "correct": false
+      },
+      {
+        "text": "javascript",
+        "correct": false
+      },
+      {
+        "text": "js",
+        "correct": false
+      },
+      {
+        "text": "script",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the correct JavaScript syntax to change the content of this HTML element? <p id='demo'>This is a demonstration.</p>",
+    "answers": [
+      {
+        "text": "document.getElementByName('p').innerHTML = 'Hello World!'",
+        "correct": false
+      },
+      {
+        "text": "document.getElement('p').innerHTML = 'Hello World!'",
+        "correct": false
+      },
+      {
+        "text": "document.getElementById('demo').innerHTML = 'Hello World!'",
+        "correct": true
+      },
+      {
+        "text": "#demo.innerHTML = 'Hello World!'",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How do you write 'Hello World' in an alert box?",
+    "answers": [
+      {
+        "text": "msg('Hello World');",
+        "correct": false
+      },
+      {
+        "text": "alert('Hello World');",
+        "correct": true
+      },
+      {
+        "text": "alertBox('Hello World');",
+        "correct": false
+      },
+      {
+        "text": "msgBox('Hello World');",
+        "correct": false
+      }
+    ]
+  }
+]
